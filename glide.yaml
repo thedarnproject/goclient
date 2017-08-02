@@ -1,0 +1,6 @@
+package: github.com/thedarnproject/goclient
+import:
+- package: github.com/thedarnproject/thedarnapi
+  subpackages:
+  - api
+- package: google.golang.org/grpc
