@@ -4,3 +4,7 @@ import:
   subpackages:
   - api
 - package: google.golang.org/grpc
+  version: v1.5.2
+- package: github.com/Sirupsen/logrus
+  version: v1.0.3
+
