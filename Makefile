@@ -7,6 +7,9 @@ binary:
 	mkdir -p bin
 	go build -o ${BIN_DIR}/goclient ${CLIENT_DIR}/main.go
 
+install:
+	cd ${CLIENT_DIR}/ && go install
+
 clean:
 	rm -rf bin/
 
