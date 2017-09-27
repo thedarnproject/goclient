@@ -1,10 +1,9 @@
 package main
 
 import (
+	"context"
 	"flag"
 	"log"
-
-	"context"
 
 	"github.com/Sirupsen/logrus"
 	api "github.com/thedarnproject/thedarnapi/api"
