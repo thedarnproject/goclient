@@ -22,6 +22,7 @@ func main() {
 	client := api.NewErrorInClient(clientConnection)
 
 	clientData := &api.Data{
+		Trigger: "this is the trigger command",
 		Error:    "this is the error",
 		Platform: "linux",
 		Plugin:   "go client",
